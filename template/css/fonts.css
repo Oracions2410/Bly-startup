@@ -1,0 +1,19 @@
+@font-face {
+    src: url('../fonts/Anton/Anton-Regular.ttf');
+    font-family: Antone;
+}
+
+@font-face {
+    src: url('../fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf');
+    font-family: Josefin;
+}
+
+@font-face {
+    src: url('../fonts/PT_Sans/PTSans-Bold.ttf');
+    font-family: PTSans;
+}
+
+@font-face {
+    src: url('../fonts/Ranchers/Ranchers-Regular.ttf');
+    font-family: Ranchers;
+}

@@ -1,0 +1,122 @@
+@import url("../css/fonts.css");
+/*-------Theme Colors --------------*/
+/*-------Theme Colors --------------*/
+/*------------Theme Fonts -----------------*/
+/*--------X---Theme Fonts ---------X-------*/
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  font-size: 14px;
+  font-family: Antone, cursive;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+a {
+  text-decoration: none;
+  color: #EE6C4D;
+}
+
+/*-------Header----------*/
+.header {
+  width: 100%;
+  height: 65px;
+  font-family: PTSans, cursive;
+  /*----X---Topbar-----------*/
+  /*----X---Topbar-----------*/
+}
+.header .topbar {
+  width: 100%;
+  height: 50px;
+  background-color: #3D5A80;
+  padding: 0 2rem;
+  padding-left: calc(15% + 2rem);
+  /*-----Logo------*/
+  /*--X--Logo---X--*/
+  /*----- Controls ------*/
+  /*--X-- Controls --X---*/
+}
+.header .topbar .logo {
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 80px;
+  min-height: 80px;
+  width: 15%;
+  width: 15%;
+}
+.header .topbar .logo img {
+  width: 100%;
+  height: auto;
+  margin-top: -18.75%;
+  margin-left: -17.5%;
+}
+.header .topbar .controls {
+  background-color: transparent;
+  align-items: center;
+  padding: 0 1rem;
+  font-size: 12px;
+}
+.header .topbar .controls .control-item {
+  margin: 8px;
+  padding-bottom: 8px;
+}
+.header .topbar .searchbar {
+  position: absolute;
+  right: 2rem;
+  background-color: transparent;
+  height: 50px;
+  width: 30%;
+  min-width: 300px;
+}
+.header .topbar .searchbar input {
+  width: 99%;
+  height: 80%;
+  font-size: 15px;
+  border: none;
+  background-color: transparent;
+  color: #FFF;
+  outline: none;
+  border-bottom: 1px solid #EE6C4D;
+  padding-top: 1rem;
+}
+.header .topbar .searchbar .search-icon {
+  background-color: #3D5A80;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 2rem;
+  padding: 8px;
+  padding-bottom: 0;
+  margin-top: 0.6rem;
+}
+.header .topbar .searchbar .search-icon img {
+  width: auto;
+  height: 100%;
+}
+
+/*-----------Nav--------------*/
+.nav {
+  background-color: #98C1D9;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 5rem;
+  height: 15px;
+}
+.nav .nav-inner {
+  background-color: #000;
+  width: 400px;
+  justify-content: space-between;
+}
+
+/*------x----Nav------x-------*/
+/*---X---Header----X-----*/
+
+/*# sourceMappingURL=styles.css.map */
